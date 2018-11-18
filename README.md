@@ -1,8 +1,25 @@
-# 成语接龙
-A web page which you send a Chinese idiom and it returns an idiom which begin with the last word of your idiom
 
-How to use:
+# Socket.IO Chat
 
-`npm install`
+A simple chat demo for socket.io
 
-`npm start`
+## How to use
+
+```
+$ cd socket.io
+$ npm install
+$ cd examples/chat
+$ npm install
+$ npm start
+```
+
+And point your browser to `http://localhost:3000`. Optionally, specify
+a port by supplying the `PORT` env variable.
+
+## Features
+
+- Multiple users can join a chat room by each entering a unique username
+on website load.
+- Users can type chat messages to the chat room.
+- A notification is sent to all users when a user joins or leaves
+the chatroom.
